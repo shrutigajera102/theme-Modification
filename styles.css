@@ -1,0 +1,360 @@
+/*  
+Template Name: mlpdesign07.1 Khaki
+Version: Pure CSS version
+Author:webmasterneo, MLP Design
+Author URI: http://www.mlpdesign.net/
+*/
+
+/* Global Settings */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+background: #000;
+background: -moz-linear-gradient(top, #3d3d80 0%, #000000 75%, #000000 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #423d80), color-stop(75%, #000000), color-stop(100%, #000000));
+background: -webkit-linear-gradient(top, #5f3d80 0%, #000000 75%, #000000 100%);
+background: -o-linear-gradient(top, #463d80 0%, #000000 75%, #000000 100%);
+background: -ms-linear-gradient(top, #4c3d80 0%, #000000 75%, #000000 100%);
+background: linear-gradient(to bottom, #3d3f80 0%, #000000 75%, #000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c803d', endColorstr='#000000', GradientType=0 );
+	color: #111;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	min-width: 600px;
+}
+h1 {
+	font-size: 20px;
+	line-height: 24px;
+}
+h2 {
+	font-size: 18px;
+	line-height: 22px;
+}
+h3 {
+	font-size: 16px;
+	line-height: 20px;
+}
+a {
+	background-color: inherit;
+	color: rgb(113, 102, 153);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+blockquote {
+	background-color: inherit;
+	color: #999999;
+	font: italic 15px "Times New Roman", serif;
+	border-left: 5px solid rgb(100, 84, 151);
+	padding: 2px 15px;
+}
+
+/* Wrapper Settings */
+#wrapper {
+	background: #ebe7f3;
+	border: none;
+	padding: 5px;
+	margin: 1% auto;
+	width: 90%;
+}
+
+#body {
+	margin: 0;
+}
+
+#container {
+	padding: 0;
+	margin: 0;
+	}
+
+/* Other Settings*/
+
+#banner {
+	position: relative;
+	padding: 10px;
+	height: 175px;
+	border: 0px;
+	color: #ffffff;
+	background: #b0ade9;
+	background: -moz-linear-gradient(top, #8983ab 0%, #8683ab 0%, #8f83ab 50%, #8272a1 51%, #7f72a1 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #8683ab), color-stop(0%, #8883ab), color-stop(50%, #8683ab), color-stop(51%, #7972a1), color-stop(100%, #a1a172));
+	background: -webkit-linear-gradient(top, #8388ab 0%, #8583ab 0%, #8389ab 50%, #7972a1 51%, #8172a1 100%);
+	background: -o-linear-gradient(top, #838aab 0%, #8b83ab 0%, #8d83ab 50%, #8072a1 51%, #7772a1 100%);
+	background: -ms-linear-gradient(top, #8386ab 0%, #8389ab 0%, #8386ab 50%, #8272a1 51%, #7e72a1 100%);
+	background: linear-gradient(to bottom, #8e83ab 0%, #838cab 0%, #8883ab 50%, #7972a1 51%, #7672a1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abab83', endColorstr='#a1a172', GradientType=0 );
+background-image: url(119805.jpg);
+background-repeat: no-repeat;
+}
+
+#banner h1 {
+	font-size: 32px;
+}
+
+#banner h1 em {
+	font-style: normal;
+	text-decoration: none;
+	color: #300d67;
+}
+
+#show-menu {
+	display: none;
+}
+.responsive {
+	background-color: inherit;
+	color: #fff;
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.5em;
+	padding: 0;
+	position: absolute;
+	top: 80%;
+	display: none;
+}
+
+ul#topnav {
+	list-style-type: none;
+	margin: 0 0 0 1%;
+	display: table;
+	padding: 0;
+	overflow: hidden;
+	width: 60%;
+	position: absolute;
+	bottom: 0;
+}
+
+ul#topnav li {
+	display: table-cell;
+	text-align: center;
+}
+
+ul#topnav li a {
+	background: #266fa3;
+	color: #eff0f2;
+	border:1px solid rgb(6, 6, 78);
+	display: block;
+	margin-right: 5px;
+	padding: 5px 0px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+ul#topnav li a.active,
+ul#topnav li a.active:hover {
+	background: #d4cef8;
+	color: #333;
+}
+
+ul#topnav li a:hover {
+	background: rgb(190, 201, 222);
+	color: #111;
+}
+
+#sidebar {
+	background: #e8e8f9;
+	float: right;
+	width: 200px;
+	margin: -175px 1% 50px auto;
+	padding: 15px;
+	font-size: 12px;
+	-webkit-box-shadow: 25px 0px 25px -25px rgba(0, 0, 0, 0.45),
+		-25px 0px 25px -25px rgba(0, 0, 0, 0.45);
+	-moz-box-shadow: 25px 0px 25px -25px rgba(0, 0, 0, 0.45),
+		-25px 0px 25px -25px rgba(0, 0, 0, 0.45);
+	box-shadow: 25px 0px 25px -25px rgba(0, 0, 0, 0.45),
+		-25px 0px 25px -25px rgba(0, 0, 0, 0.45);
+	position: relative;
+}
+
+#sidebar h2 {
+	background-color: inherit;
+	color: rgb(173, 174, 212);
+	font: normal 16px Arial, sans-serif;
+	border-bottom: 2px solid rgb(80, 63, 140);
+	padding: 8px 0 5px 0;
+}
+
+#sidebar ul {
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+}
+
+#sidebar ul li {
+	list-style-position: inside;
+	padding: 0 0 10px 20px;
+	text-indent: -1em;
+}
+
+#sidebar ul li a {
+	background-color: inherit;
+	color: #333;
+	text-decoration: none;
+	padding: 5px 2px;
+	display: block;
+}
+
+#sidebar ul li a:hover {
+	background-color: rgb(153, 161, 204);
+	color: #fff;
+}
+
+#sidebar ul li a:before {
+	content: "\00BB  ";
+	color: rgb(54, 75, 134);
+}
+
+#content {
+	text-align: left;
+	padding: 20px;
+	margin-right: 245px;
+}
+
+#content h1 {
+	font: normal 18px Arial, sans-serif;
+	padding: 0;
+}
+
+#content ul {
+	list-style: none;
+}
+
+#content ul li {
+	padding: 2px 0 2px 10px;
+	margin: 0;
+}
+
+#content ul li:before {
+	content: "\00BB  ";
+	color: rgb(74, 53, 196);
+}
+
+#content .item {
+	line-height: 1.25em;
+	margin: 0;
+}
+
+#content .item p {
+	text-align: justify;
+}
+
+#content .item span {
+	background-color: inherit;
+	color: #4b5b8f;
+	font-size: 11px;
+}
+
+#footer {
+	padding: 10px;
+	height: 20px;
+	border: 0px;
+	color: #333333;
+	font-size: 12px;
+	background: #6584f1;
+	background: -moz-linear-gradient(top, #6e64de 0%, #a394f3 0%, #8695f2 50%, #8f95ec 51%, #847fe3 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #8597d4), color-stop(0%, #7286de), color-stop(50%, #888deb), color-stop(51%, #7b7be1), color-stop(100%, #8385e8));
+	background: -webkit-linear-gradient(top, #8e91e5 0%, #978be7 0%, #938bda 50%, #8e89d6 51%, #9691df 100%);
+	background: -o-linear-gradient(top, #979ae5 0%, #a793e7 0%, #8d92ce 50%, #8d95dd 51%, #9284d3 100%);
+	background: -ms-linear-gradient(top, #a57bdc 0%, #828ce4 0%, #7976d1 50%, #a387e9 51%, #9783e0 100%);
+	background: linear-gradient(to bottom, #948ddd 0%, #9c8be6 0%, #989be0 50%, #8c8ddf 51%, #938ddc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abab83', endColorstr='#a1a172', GradientType=0 );
+	clear: both;
+}
+
+#footer a {
+	background-color: inherit;
+	color: #333333;
+}
+
+#footer a:hover {
+	background-color: inherit;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#footer span.left {
+	text-align: left;
+	padding-left: 15px;
+	float: left;
+}
+
+#footer span.right {
+	text-align: right;
+	padding-right: 15px;
+	float: right;
+}
+
+#footer p.show-footer {
+	margin: 0;
+	display: none;
+}
+
+#credits {
+	width: 90%;
+	background-color: inherit;
+	color: #999;
+	position: relative;
+	bottom: 0;
+	padding: 10px 0;
+	font: normal 11px Arial, sans-serif;
+	text-align: right;
+	margin: 0 auto;
+}
+
+#credits a {
+	background-color: inherit;
+	color: #999;
+	text-decoration: none;
+}
+
+#credits a:hover {
+	background-color: inherit;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Begin responsive styles */
+@media screen and (max-width : 700px){
+
+body { font-size:12px; }
+blockquote {
+	font-size: 13px;
+	border-left-width: 3px;
+	padding: 1px 5px 1px 10px;
+	margin: 0;
+}
+/* banner */
+/*#banner { height:170px;}*/
+#banner h1 {font-size:28px;}
+#banner p {width:60%;}
+
+/* menu */
+ul#topnav {display:none;}
+.responsive { display:block;}
+#show-menu:checked ~ ul#topnav {display: block; position: absolute; top:100%; width:50%; margin:0 0 0 -8%; overflow:visible;}
+ul#topnav li { display: block; text-align:left; margin:0 0 1px 15%;}
+ul#topnav li a { padding-left:20px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; font-size:10px;}
+/*ul#topnav li a:hover { background: rgba(255,0,85,1); color:rgba(255,255,255,255);}*/
+ul#topnav li a.active, ul#topnav li a.active:hover {    background: #eee;  color: #000;}
+
+
+/* sidebar */
+#sidebar { width: 28%; padding:5px; font-size:10px; line-height:1.25em; }
+#sidebar h2 { font-size:12px; }
+
+/* content */
+#content { margin-right: 33%;}
+#content h1 { font-size:14px; font-weight:bold;}
+#content .item span { font-size:10px;}
+#content ul {margin-left:0; padding-left:0;}
+#content ul li {margin-left:0; padding-left:0;}
+
+
+/* footer */
+#footer { font-size:10px; text-align: center; padding-bottom:20px;}
+#footer span {display:none;}
+#footer p.show-footer {display: block; }
+#credits { font-size:80%; text-align:center;}
+}
